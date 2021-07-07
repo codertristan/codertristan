@@ -19,67 +19,78 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0" nonce="UlWnCrUl"></script>
 	<div id="page" class="site">
-	    <header id="site-header" class="site-header mobile-header-blue header-style-1">
-	        <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
-	            <div class="container-custom">
-	                <div class="row">
-	                    <div class="col-md-8">
-	                        <!-- Info on Topbar -->
-	                        <ul class="topbar-left">
-	                            <li><i class="icon ion-md-pin"></i>Loma Verde, 78214 San Luis, S.L.P.</li>
+		<div class="collapse searchbar" id="searchbar">
+			<div class="search-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search for...">
+								<span class="input-group-btn">
+									<button class="btn btn-primary" type="button">Go!</button>
+								</span>
+							</div>
+							<!-- /input-group -->
+						</div>
+						<!-- /.col-lg-6 -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="site-header" class="site-header mobile-header-blue header-style-1">
+			<div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
+				<div class="container-custom">
+					<div class="row">
+						<div class="col-md-8">
+							<!-- Info on Topbar -->
+							<ul class="topbar-left">
+								<li><i class="icon ion-md-pin"></i>Loma Verde, 78214 San Luis, S.L.P.</li>
 								<li><i class="icon ion-md-call"></i>+52 444 128 8386</li>
 								<li><i class="icon ion-md-mail"></i>atencion@faragauss.com</li>
-	                        </ul>
-	                    </div>
-                        <!-- Info on topbar close -->
-	                    <div class="col-md-4">
-	                    	<ul class="topbar-right pull-right">
-		                        <li class="topbar-login"><a href="#"> Login </a></li>
-		                        <li class="topbar-languages"><a href="#"> Español <i class="icon ion-ios-arrow-down"></i></a></li>
-	                        </ul>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	        <!-- Top bar close -->
-	        <div class="main-header md-hidden sm-hidden">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Top bar close -->
+			<div class="main-header md-hidden sm-hidden">
 				<div class="container-custom">
 					<div class="row">
 						<div class="col-md-3">
 							<div class="logo-brand">
-								<a href="#"><img src="images/logo.png" alt=""></a>
+								<a href="index.html"><img src="images/logo.png" alt=""></a>
 							</div>
 						</div>
 						<div class="col-md-9">
 							<div class="main-navigation">
 								<ul id="primary-menu" class="menu">
-									<li class="menu-item current-menu-ancestor"><a href="#">Inicio</a></li>
+									<li class="menu-item current-menu-ancestor current-menu-parent"><a
+											href="index.html">Inicio</a></li>
 									<li class="menu-item menu-item-has-children"><a href="#">Productos</a>
 										<ul class="sub-menu">
-											<li class="menu-item"><a href="#">Sistema de tierras</a></li>
-											<li class="menu-item"><a href="#">Pararrayos</a></li>
-											<li class="menu-item"><a href="#">Protección catódica</a></li>
+											<li class="menu-item"><a href="sistema-tierra-fisica.html">Sistema de tierra física</a></li>
+											<li class="menu-item"><a href="pararrayos.html">Pararrayos</a></li>
+											<li class="menu-item"><a href="proteccion-catodica.html">Protección catódica</a></li>
 										</ul>
 									</li>
 									<li class="menu-item menu-item-has-children"><a href="#">Quienes somos</a>
 										<ul class="sub-menu">
-											<li class="menu-item"><a href="#">Nuestra historia</a></li>
-											<li class="menu-item"><a href="#">Certificaciones</a></li>
-											<li class="menu-item"><a href="#">Forma parte de nosotros</a></li>
+											<li class="menu-item"><a href="nuestra-historia.html">Nuestra historia</a></li>
+											<li class="menu-item"><a href="certificaciones.html">Certificaciones</a></li>
 										</ul>
 									</li>
-									<li class="menu-item"><a href="3">Aplicaciones</a></li>
-									<li class="menu-item menu-item-has-children current-menu-parent"><a href="#">Formación</a>
+									<li class="menu-item"><a href="aplicaciones.html">Aplicaciones</a>
+									</li>
+									<li class="menu-item menu-item-has-children"><a href="#">Herramientas</a>
 										<ul class="sub-menu">
-											<li class="menu-item current-menu-parent"><a href="#">Mapa de Rayos a tiempo real</a>
-											<li class="menu-item"><a href="#">Capacitación</a></li>
-											<li class="menu-item"><a href="#">Certificación</a></li>
-											<li class="menu-item"><a href="#">Webinars</a></li>
+											<li class="menu-item"><a href="mapa-rayos-tiempo-real.html">Mapa de Rayos a tiempo real</a>
 										</ul>
 									</li>
 								</ul>
-								<a href="#" class="btn btn-primary">Ser distribuidor<i class="icon ion-md-paper-plane"></i></a>
+								<a data-formkit-toggle="80040b4201" href="https://tremendous-innovator-8275.ck.page/80040b4201" class="btn btn-primary">Ser distribuidor<i class="icon ion-md-paper-plane"></i></a>
 							</div>
 						</div>
 					</div>
@@ -93,7 +104,7 @@
 					<div class="row">
 						<div class="col-xs-6">
 							<div class="logo-brand-mobile">
-								<a href="#"><img src="images/logo.png" alt="industris"></a>
+								<a href="index.html"><img src="images/logo.png" alt="industris"></a>
 							</div>
 						</div>
 						<div class="col-xs-6">
@@ -105,38 +116,30 @@
 							<div class="mobile-nav">
 								<ul id="primary-menu-mobile" class="mobile-menu">
 									<li class="menu-item current-menu-ancestor current-menu-parent"><a
-											href="#">Inicio</a></li>
+											href="index.html">Inicio</a></li>
 									<li class="menu-item menu-item-has-children"><a href="#">Productos</a>
 										<ul class="sub-menu">
-											<li class="menu-item"><a href="#">Sistemas de tierra</a></li>
-											<li class="menu-item menu-item-has-children"><a
-													href="#">Pararrayos</a></li>
-											<li class="menu-item menu-item-has-children"><a href="#">Protección
-													catódica</a></li>
+											<li class="menu-item"><a href="sistema-tierra-fisica.html">Sistema de tierra física</a></li>
+											<li class="menu-item"><a
+													href="pararrayos.html">Pararrayos</a></li>
+											<li class="menu-item"><a href="proteccion-catodica.html">Protección catódica</a></li>
 										</ul>
 									</li>
-									<li class="menu-item menu-item-has-children"><a href="#">Quienes
-											somos</a>
+									<li class="menu-item menu-item-has-children"><a href="#">Quienes somos</a>
 										<ul class="sub-menu">
-											<li class="menu-item"><a href="#">Nuestra historia</a></li>
-											<li class="menu-item"><a href="#">Certificaciones</a></li>
-											<li class="menu-item"><a href="#">Forma parte de
-													nosotros</a></li>
+											<li class="menu-item"><a href="nuestra-historia.html">Nuestra historia</a></li>
+											<li class="menu-item"><a href="certificaciones.html">Certificaciones</a></li>
 										</ul>
 									</li>
-									<li class="menu-item menu-item-has-children"><a href="#">Aplicaciones</a>
+									<li class="menu-item menu-item-has-children"><a href="aplicaciones.html">Aplicaciones</a>
 									</li>
-									<li class="menu-item menu-item-has-children"><a href="#">Formación</a>
+									<li class="menu-item menu-item-has-children"><a href="#">Herramientas</a>
 										<ul class="sub-menu">
-											<li class="menu-item current-menu-parent"><a href="#">Mapa de Rayos a tiempo real</a>
-											<li class="menu-item"><a href="#">Capacitación</a></li>
-											<li class="menu-item"><a href="#">Certificación</a></li>
-											<li class="menu-item"><a href="#">Webinars</a></li>
+											<li class="menu-item"><a href="mapa-rayos-tiempo-real.html">Mapa de Rayos a tiempo real</a>
 										</ul>
 									</li>
 								</ul>
-								<a href="#" class="btn btn-primary">Ser distribuidor<i
-										class="icon ion-md-paper-plane"></i></a>
+								<a data-formkit-toggle="80040b4201" href="https://tremendous-innovator-8275.ck.page/80040b4201" class="btn btn-primary">Ser distribuidor<i class="icon ion-md-paper-plane"></i></a>
 							</div>
 						</div>
 					</div>
@@ -170,113 +173,6 @@
 						        <article class="single-post">
 									<iframe src="https://map.blitzortung.org/index.php?interactive=1&NavigationControl=1&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=0&ScaleControl=0&LinksCheckboxChecked=0&LinksRangeValue=10&MapStyle=2&MapStyleRangeValue=1&RegionRangeValue=2&Advertisment=0" width="100%" height="600"></iframe>
 						        </article>
-
-						        <div id="comments" class="comments-area seperate-border">
-								    <h3 class="comments-title">Comments</h3>
-								    <ol class="comment-list">
-
-								        <li id="comment-5" class="comment even thread-even depth-1 comment-item">
-								            <article class="comment-wrap clearfix">
-
-								                <div class="gravatar">
-								                    <img src="images/avatar-1.jpg" class="avatar avatar-68 photo" alt="industris" > </div>
-
-								                <div class="comment-content">
-								                    <div class="comment-meta">
-								                        <h6 class="comment-author">Bobby Knight</h6>
-								                        <span class="comment-time">August 27, 2018</span>
-								                    </div>
-								                    <div class="comment-text">
-								                        <p>Dis lacinia pellentesque interdum tincidunt cubilia massa egestas primis ullamcorpert ultricies, ad molestie dui in feugiat lobortis erat vivamus hac condimentum est,</p>
-								                        <div class="comment-reply"><a class="btn comment-reply-link" href="#">Reply</a></div>
-								                    </div>
-								                </div>
-
-								            </article>
-								        </li>
-
-								        <ul class="children">
-
-								            <li id="comment-6" class="comment odd alt depth-2 comment-item">
-								                <article class="comment-wrap clearfix">
-
-								                    <div class="gravatar">
-								                        <img src="images/avatar-2.jpg" alt="industris" class="avatar avatar-68 photo"> 
-								                    </div>
-
-								                    <div class="comment-content">
-								                        <div class="comment-meta">
-								                            <h4 class="comment-author">Karic</h4>
-								                            <span class="comment-time">August 27, 2018</span>
-								                        </div>
-								                        <div class="comment-text">
-								                            <p>Dis lacinia pellentesque interdum tincidunt cubilia massa egestas ullamcorpert ultricies, ad molestie dui in feugiat lobortis erat vivamus.</p>
-								                            <div class="comment-reply"><a class="btn comment-reply-link" href="#">Reply</a></div>
-								                        </div>
-								                    </div>
-
-								                </article>
-								            </li>
-
-								            <!-- #comment-## -->
-
-								        </ul>
-								        <!-- .children -->
-								        <!-- #comment-## -->
-
-								        <li id="comment-3" class="comment odd alt thread-odd thread-alt depth-1 comment-item">
-								            <article class="comment-wrap clearfix">
-
-								                <div class="gravatar">
-								                    <img src="images/avatar-3.jpg" alt="industris" class="avatar avatar-68 photo"> 
-								                </div>
-
-								                <div class="comment-content">
-								                    <div class="comment-meta">
-								                        <h6 class="comment-author">Bobby Knight</h6>
-								                        <span class="comment-time">August 27, 2018</span>
-								                    </div>
-								                    <div class="comment-text">
-								                        <p>Dis lacinia pellentesque interdum tincidunt cubilia massa egestas primis ullamcorpert ultricies, ad molestie dui in feugiat lobortis erat vivamus hac condimentum.</p>
-								                        <div class="comment-reply"><a rel="nofollow" class="btn comment-reply-link" href="#">Reply</a></div>
-								                    </div>
-								                </div>
-
-								            </article>
-								        </li>
-
-								        <!-- #comment-## -->
-								    </ol>
-								    <!-- .comment-list -->
-								</div>
-
-							    <div id="respond" class="comment-respond">
-							        <h3 id="reply-title" class="comment-reply-title">Add comments:</h3>
-							        <form action="#" method="post" id="commentform" class="comment-form">
-							            <div class="row">
-							            	<div class="col-md-6">
-									            <p class="comment-form-author">
-									            	<input id="author" name="author" type="text" value="" size="30" placeholder="Name*" required="">
-									            </p>
-									        </div>
-									        <div class="col-md-6">
-									            <p class="comment-form-email">
-									            	<input id="email" name="email" type="text" value="" size="30" placeholder="Email*" required="">
-									            </p>
-									        </div>
-							            	<div class="col-md-12">
-									            <p class="comment-form-comment">
-									                <textarea id="comment" name="comment" cols="45" rows="8" placeholder="Comment*" required=""></textarea>
-									            </p>
-									        </div>
-								        </div>
-								            <p class="form-submit">
-								                <input name="submit" type="submit" id="submit" class="btn btn-submit" value="Send message">
-								            </p>
-							        </form>
-							    </div>
-							    <!-- #respond -->
-
 						    </main>
 						    <!-- #main -->
 						</div>
@@ -289,116 +185,100 @@
 	    
 
 	    <footer id="site-footer" class="site-footer bg-footer">
-	        <div class="main-footer">
-	            <div class="container-custom">
-	                <div class="row">
+			<div class="main-footer">
+				<div class="container-custom">
+					<div class="row">
 
-	                    <div class="col-md-3 col-sm-6">
-	                    	<div class="widget-footer">
-		                        <div id="media_image-1" class="widget widget_media_image">
-		                            <a href="index.html"><img src="images/logo-footer.png" alt="industris"></a>
-		                        </div>
-		                        <div id="custom_html-1" class="widget_text widget widget_custom_html">
-		                            <div class="textwidget custom-html-widget">
-		                                <p>Privacy | Integrity ©2019 Industris Company. <br>All Rights Res</p>
-		                            </div>
-		                        </div>
-		                    </div>
-	                    </div>
-	                    <!-- end col-lg-3 -->
+						<div class="col-md-3 col-sm-6">
+							<div class="widget-footer">
+								<div id="media_image-1" class="widget widget_media_image">
+									<a href="index.html"><img src="images/logo-footer.png" alt=""></a>
+								</div>
+								<div id="custom_html-1" class="widget_text widget widget_custom_html">
+									<div class="textwidget custom-html-widget">
+										<p>Faragauss Marketing © 2021<br>Todos los derechos reservados</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end col-lg-3 -->
 
-	                    <div class="col-md-3 col-sm-6">
-	                    	<div class="widget-footer">
-		                        <div id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
-		                            <div class="textwidget custom-html-widget">
-		                                <ul>
-		                                    <li><a href="service-detail.html">Oil & Gas exploited</a></li>
-		                                    <li><a href="service-detail.html">Automotive Manufacturing</a></li>
-		                                    <li><a href="service-detail.html">Transportation & Distribution</a></li>
-		                                    <li><a href="service-detail.html">Manufacture</a></li>
-		                                    <li><a href="service-detail.html">Industrial Construction</a></li>
-		                                    <li><a href="service-detail.html">Green Energy</a></li>
-		                                </ul>
-		                            </div>
-		                        </div>
-	                        </div>
-	                    </div>
-	                    <!-- end col-lg-3 -->
+						<div class="col-md-3 col-sm-6">
+							<div class="widget-footer">
+								<div id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
+									<div class="textwidget custom-html-widget">
+										<ul>
+											<li><a href="sistema-tierra-fisica.html">• Sistema de tierra física</a></li>
+											<li><a href="pararrayos.html">• Pararrayos</a></li>
+											<li><a href="proteccion-catodica.html">• Protección catódica</a></li>
+											<li><a href="mapa-rayos-tiempo-real.html">• Mapa de rayos en tiempo real</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end col-lg-3 -->
 
-	                    <div class="col-md-3 col-sm-6">
-	                    	<div class="widget-footer">
-		                        <div id="custom_html-3" class="widget_text widge widget-footer widget_custom_html padding-left">
-		                            <div class="textwidget custom-html-widget">
-		                                <ul>
-		                                    <li><a href="index.html">About us</a></li>
-		                                    <li><a href="about.html">Contact us</a></li>
-		                                    <li><a href="services.html">The news</a></li>
-		                                    <li><a href="services.html">Terms & conditions</a></li>
-		                                    <li><a href="blog.html">Case Studies</a></li>
-		                                </ul>
-		                            </div>
-		                        </div>
-		                    </div>
-	                    </div>
-	                    <!-- end col-lg-3 -->
+						<div class="col-md-3 col-sm-6">
+							<div class="widget-footer">
+								<div id="custom_html-3"
+									class="widget_text widge widget-footer widget_custom_html padding-left">
+									<div class="textwidget custom-html-widget">
+										<ul>
+											<li><a href="nuestra-historia.html">• Nuestra historía</a></li>
+											<li><a href="aplicaciones.html">• Aplicaciones</a></li>
+											<li><a href="aviso-de-privacidad.html">• Aviso de privacidad</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end col-lg-3 -->
 
-	                    <div class="col-md-3 col-sm-6">
-	                    	<div class="widget-footer">
-		                        <div id="mc4wp_form_widget-1" class="widget widget_mc4wp_form_widget">
-		                            <!-- Mailchimp for WordPress v4.5.2 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
-		                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1696" method="post" data-id="1696" data-name="Industris Subscribe">
-	                                    <div class="input-group">
-	                                        <input type="email" name="EMAIL" class="form-control" placeholder="Email Address" required="">
-	                                        <span class="input-group-btn">
-	                                        	<button type="submit" class="btn btn-subcribe"><i class="icon ion-md-checkmark"></i></button>
-	                                        </span>
-	                                    </div>
-		                                <input type="hidden" name="_mc4wp_timestamp" value="1560227031">
-		                                <input type="hidden" name="_mc4wp_form_id" value="1696">
-		                                <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
-		                                <div class="mc4wp-response"></div>
-		                            </form>
-		                        </div>
-	                            <!-- / Mailchimp for WordPress Plugin -->
+						<div class="col-md-3 col-sm-6">
+							<div class="widget-footer">
+								<a class="btn btn-primary btn-full-width" data-formkit-toggle="80040b4201" href="https://tremendous-innovator-8275.ck.page/80040b4201">Ser distribuidor</a>
+								<!-- / Mailchimp for WordPress Plugin -->
 
-	                            <div class="footer-social ot-socials bg-white">
-	                            	follow us:
-	                                <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-facebook"></i></a>
-	                                <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-instagram"></i></a>
-	                                <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-skype"></i></a>
-	                                <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-twitter"></i></a>
-	                                <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-youtube"></i></a>
-	                            </div>
-	                        </div>
-	                    </div>
-	                    <!-- end col-lg-3 -->
+								<div class="footer-social ot-socials bg-white">
+									síguenos:
+									<a target="_blank" href="https://www.facebook.com/FaraGauss.System/" rel="noopener noreferrer"><i class="icon ion-logo-facebook"></i></a>
+									<a target="_blank" href="https://www.linkedin.com/company/faragauss-manufacturing-s-a-de-c-v-/" rel="noopener noreferrer"><i class="icon ion-logo-linkedin"></i></a>
+									<a target="_blank" href="https://twitter.com/FaragaussM" rel="noopener noreferrer"><i class="icon ion-logo-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<!-- end col-lg-3 -->
 
-	                </div>
-	            </div>
-	        </div>
-	        <!-- .main-footer -->
-	        <div class="footer-bottom">
-	            <div class="container-custom">
-                    <ul class="topbar-left">
-                        <li><i class="icon ion-md-pin"></i>Forusbeen 50, 4035 Stavanger, Norway</li>
-                        <li><i class="icon ion-md-call"></i>+84 0378 260 852</li>
-                        <li><i class="icon ion-md-mail"></i>info.industris@gmail.com</li>
-                    </ul>
-	        		<a id="back-to-top" href="#" class="btn btn-back-to-top show pull-right">Back to top<i class="icon ion-ios-arrow-dropup-circle"></i></a>
-	            </div>
-	        </div>
-	        <!-- .copyright-footer -->
-	    </footer>
+					</div>
+				</div>
+			</div>
+			<!-- .main-footer -->
+			<div class="footer-bottom">
+				<div class="container-custom">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="topbar-left">
+								<li><i class="icon ion-md-pin"></i>Loma Verde, 78214 San Luis, S.L.P.</li>
+								<li><i class="icon ion-md-call"></i>+52 444 128 8386</li>
+								<li><i class="icon ion-md-mail"></i>atencion@faragauss.com</li>
+							</ul>
+							<a id="back-to-top" href="#" class="btn btn-back-to-top pull-right">Volver arriba<i class="icon ion-ios-arrow-dropup-circle"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .copyright-footer -->
+		</footer>
 	</div>
 
 	<script src='js/jquery.min.js'></script>
 	<script src='js/slick.min.js'></script>
 	<script src='js/jquery.sticky.js'></script>
 	<script src='js/countto.min.js'></script>
+	<script async data-uid="80040b4201" src="https://tremendous-innovator-8275.ck.page/80040b4201/index.js"></script>
 	<script src='js/jquery.magnific-popup.min.js'></script>
 	<script src='js/jquery.isotope.min.js'></script>
 	<script src='js/scripts.js'></script>
 </body>
-
-<!-- Mirrored from templates.thememodern.com/industris/post.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Jun 2021 21:06:45 GMT -->
 </html>
